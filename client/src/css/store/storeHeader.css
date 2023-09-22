@@ -1,0 +1,24 @@
+.storeHeader {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 12vh;
+    width: 100vw;
+    position: relative;
+}
+.storeHeader > div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.storeHeader > div > p {
+    font-size: max(4.5vh, 30px);
+    margin: 0vh auto;
+    letter-spacing: 0.5vh;
+    width: fit-content;
+    font-weight: bold;
+    color: azure;
+}

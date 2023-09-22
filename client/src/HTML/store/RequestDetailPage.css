@@ -1,0 +1,46 @@
+.Req_Det_Page_Body{
+    background-color: #f2f2f2;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.Req_Det_Page_Wrapper{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2.5vh;
+    line-height: 1.6;
+}
+
+.Req_Det_Page_Header{
+    border: 1px solid black;
+    font-size: 4.5vh;
+    text-align: center;
+    padding: 1.5vh;
+    margin: 0.75vh 0 0.75vh 0;
+}
+
+.Req_Det_Page_Table_Conf{
+    background-color: lightblue;
+    width: 100%;
+    height: wrap-content;
+    display: inline-block;
+}
+
+
+
+.Req_Det_Page_Table_Pend{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: wrap-content;
+    display: inline-block;
+}
+
+.Req_Det_Page_td{
+    min-width: 23vh;
+    
+    
+}

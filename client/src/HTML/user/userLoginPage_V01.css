@@ -1,0 +1,160 @@
+.loginUser-body {
+    background-color: #F3EBF6;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./backimg.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.loginUser-main {
+    background-color: #FFFFFF;
+    width: max(30vw, 400px);
+    height: max(47vh, 450px);
+    margin: 17vh auto;
+    border-radius: 20px;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.loginUser-sign {
+    padding-top: max(4.5vh, 40px);
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: max(1.5vw, 23px);
+    text-align: center;
+}
+
+.loginUser-form {
+    padding-top: max(4vh, 35px);
+}
+
+.loginUser-GroupBtn {
+    width: 76%;
+    color: #8C55AA;
+    font-weight: 700;
+    font-size: max(0.9vw, 15px);
+    letter-spacing: 0.06vw;
+    background: rgba(136, 126, 126, 0.04);
+    padding: max(0.9vh, 10px) max(2vw, 20px);
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    display: block;
+    margin: 0 auto max(3vh, 27px) auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.loginUser-email {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: max(0.9vw, 15px);
+    letter-spacing: 0.06vw;
+    background: rgba(136, 126, 126, 0.04);
+    padding: max(0.9vh, 10px) max(2vw, 20px);
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    display: block;
+    margin: 0 auto max(3vh, 27px) auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.loginUser-pwd {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: max(0.9vw, 15px);
+    letter-spacing: 0.06vw;
+    background: rgba(136, 126, 126, 0.04);
+    padding: max(0.9vh, 10px) max(2vw, 20px);
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    display: block;
+    margin: 0 auto max(4vh, 35px) auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.loginUser-email:focus, .loginUser-pwd:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+.loginUser-submitGroup {
+    display: flex;
+}
+
+.loginUser-submit {
+    cursor: pointer;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    padding: max(1vh, 10px) max(2vw, 30px) ;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    font-size: max(0.8vw, 15px);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.signupUser-submit {
+    cursor: pointer;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    padding: max(1vh, 10px) max(2vw, 30px) ;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    font-size: max(0.8vw, 15px);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.loginUser-forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    display: block;
+    margin: max(4.5vh, 40px) auto 0 auto;
+    text-align: center;
+    font-size: max(0.8vw, 15px);
+    font-style: italic;
+}
+
+.loginUser-forgot, .loginUser-submit, .signupUser-submit {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    text-decoration: none
+}
+
+.loginUser-submit:hover , .signupUser-submit:hover {
+    text-decoration: underline;
+}
+
+.loginUser-forgot:hover {
+    color: rgb(55, 55, 235);
+}
+
+@media (max-width: 600px) {
+    .loginUser-main {
+        border-radius: 0px;
+    }
+
+}

@@ -1,0 +1,175 @@
+.storehome_calendar {
+  font-family: "DINPro", "Helvetica Neue", sans-serif;
+  margin: 1.5vh auto;
+  width: 90vw;
+  height: 78vh;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.2) ,0px 3px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.storehome_calendar_top {
+  background: #fff;
+  padding: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px 8px 0px 0px;
+  height: 8vh;
+}
+.storehome_secondary {
+  float: left;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 0.5rem 0.8rem;
+  font-size: 1vw;
+  margin-left: 10px;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: 500;
+}
+.storehome_secondary:hover {
+  background: #fafafa;
+}
+.storehome_secondary:active {
+  box-shadow: none;
+}
+.storehome_secondary:focus {
+  outline: 0;
+}
+.storehome_calendar_title {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  letter-spacing: 1px;
+}
+.storehome_arr_icon {
+  height: 100%;
+  font-size: max(2vw, 25px);
+  margin: 0 max(10px, 2vw);
+}
+.storehome_h1 {
+  font-size: max(1.5vw, 20px);
+  height: 100%;
+}
+
+.storehome_outer {
+  position:relative;
+  overflow-y: scroll;
+  height: 70vh;
+  border-radius: 5px;
+  padding-right: 2.5vw;
+}
+.storehome_table {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 1.8vh;
+  table-layout: fixed;
+  margin-bottom: 5vh;
+}
+.storehome_table > thead {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  background: rgb(152, 199, 228);
+  height: 5vh;
+  position: sticky;
+  top: 0;
+}
+.storehome_table thead th {
+  text-align: center;
+  width: 100%;
+  font-size: 0.9vw;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9);
+}
+.storehome_headcol {
+  font-size: 0.8vw;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: right;
+  position: relative;
+  background-color: white;
+  padding-right: 1vw;
+}
+.storehome_today > div {
+  color: rgb(63, 105, 240);
+  font-size: 1.3vw;
+  font-weight: 900;
+}
+.storehome_weekend  {
+  background-color: rgb(174, 174, 174);
+}
+
+/* tbody */
+.storehome_empty_row {
+  border: none;
+  background-color: white;
+  height: 1vw;
+}
+
+.storehome_table tbody tr:not(.storehome_empty_row) td {
+  height: 2vw;
+}
+.storehome_table tbody tr:not(.storehome_empty_row) td:not(.storehome_headcol) {
+  border-bottom: 1px solid #e8e8e8;
+  border-right: 1px solid #eee;
+}
+
+/* store availability */
+.storehome_mini {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 0.5vw 1vw 1vw 1vw;
+  
+}
+.storehome_p1 {
+  font-size: 0.8vw;
+}
+.storehome_p2 {
+  font-size: 1.5vw;
+  margin-bottom: 0.3vw;
+}
+.storehome_addDrop {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+.storehome_addDrop input {
+  margin: 0 0.5vw;
+  font-size: 0.9vw;
+  font-weight: bold;
+  padding: 0 0.5vw;
+}
+.storehome_threebtn {
+  margin-top: 1vh;
+  font-size: 0.6vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+.storehome_threebtn input {
+  width: 30%;
+  
+}
+
+.storehome_threebtn_link {
+  width: 30%;
+  font-size: 0.6vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(240, 238, 238);
+  align-items: center;
+  border-width: 0.01vw;
+  border-style: solid;
+  border-radius: 0.2vw;
+}

@@ -1,0 +1,81 @@
+[{
+  "ownerEmail": "client@test.com",
+  "make": "Toyota",
+  "model": "4Runner",
+  "year": 2006,
+  "mileage": 100.2,
+  "transmission": "Manual",
+  "drivetrain": "Others"
+}, {
+  "ownerEmail": "client@test.com",
+  "make": "Toyota",
+  "model": "Corolla",
+  "year": 2010,
+  "mileage": 1056.10,
+  "transmission": "Others",
+  "drivetrain": "4x4"
+}, {
+  "ownerEmail": "client2@test.com",
+  "make": "BMW",
+  "model": "Auris",
+  "year": 2011,
+  "mileage": 253,
+  "transmission": "Others",
+  "drivetrain": "Others"
+}, {
+  "ownerEmail": "client2@test.com",
+  "make": "Toyota",
+  "model": "GR86",
+  "year": 2010,
+  "mileage": null,
+  "transmission": "Manual",
+  "drivetrain": "4x4"
+}, {
+  "ownerEmail": "client2@test.com",
+  "make": "BMW",
+  "model": "GR86",
+  "year": 2012,
+  "mileage": 2777,
+  "transmission": "Manual",
+  "drivetrain": "4x4"
+}, {
+  "ownerEmail": "client5@test.com",
+  "make": "Audi",
+  "model": "Rav4",
+  "year": 2004,
+  "mileage": 380,
+  "transmission": "Manual",
+  "drivetrain": "4x2"
+}, {
+  "ownerEmail": "client@test.com",
+  "make": "Others",
+  "model": "Rav4",
+  "year": 1999,
+  "mileage": 1439,
+  "transmission": "Manual",
+  "drivetrain": "Others"
+}, {
+  "ownerEmail": "client2@test.com",
+  "make": "BMW",
+  "model": "Corolla",
+  "year": 1986,
+  "mileage": 2786,
+  "transmission": "Manual",
+  "drivetrain": "4x4"
+}, {
+  "ownerEmail": "client5@test.com",
+  "make": "Toyota",
+  "model": "Corolla",
+  "year": 2002,
+  "mileage": 334,
+  "transmission": "Auto",
+  "drivetrain": "Others"
+}, {
+  "ownerEmail": "client3@test.com",
+  "make": "Kia",
+  "model": "Others",
+  "year": 2002,
+  "mileage": 1892.5,
+  "transmission": "Manual",
+  "drivetrain": "4x2"
+}]

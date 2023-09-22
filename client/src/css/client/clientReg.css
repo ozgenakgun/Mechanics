@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.cl_reg_page_body{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.cl_reg_page_container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.cl_reg_page_container .cl_reg_page_title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+
+.cl_reg_page_content form .cl_reg_page_user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+.cl_reg_page_content form .cl_reg_page_vehicle_information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    background-color: aliceblue;
+    padding-top: 10px;
+    
+  }
+
+form .cl_reg_page_user-details .cl_reg_page_input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+  
+}
+
+form .cl_reg_page_vehicle_information .cl_reg_page_input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+    padding: 10px;
+  }
+
+form .cl_reg_page_input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  
+}
+.cl_reg_page_user-details .cl_reg_page_input-box input, .cl_reg_page_vehicle_information .cl_reg_page_input-box input, .cl_reg_page_vehicle_information .cl_reg_page_input-box select{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.cl_reg_page_user-details .cl_reg_page_input-box input:focus,
+.cl_reg_page_user-details .cl_reg_page_input-box input:valid{
+  border-color: #9b59b6;
+}
+
+.cl_reg_page_vehicle_information .cl_reg_page_input-box input:focus,
+.cl_reg_page_user-details .cl_reg_page_input-box input:valid{
+    border-color: #9b59b6;
+  }
+.cl_reg_page_add {
+  padding: 3px 10px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.cl_reg_page_policy {
+  margin: 30px 0 25px 0;
+}
+form .cl_reg_page_button{
+  height: 38px;
+  width: 100%;
+}
+form .cl_reg_page_button input{
+  height: 100%;
+  width: fit-content;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #71b7e6;
+  padding: 0 12px;
+}
+form .cl_reg_page_button input:hover {
+  text-decoration: underline;
+}
+
+ form .cl_reg_page_button_submit{
+  height: 45px;
+}
+ form .cl_reg_page_button_submit input{
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #71b7e6;
+}
+ form .cl_reg_page_button_submit input:hover{
+  /* transform: scale(0.99); */
+  background: #9b59b6;
+  }
+ @media(max-width: 584px){
+ .cl_reg_page_container{
+  max-width: 100%;
+}
+form .cl_reg_page_user-details .cl_reg_page_input-box, .cl_reg_page_vehicle_information .cl_reg_page_input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .cl_reg_page_content form .cl_reg_page_user-details, .cl_reg_page_vehicle_information{ 
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .cl_reg_page_user-details::-webkit-scrollbar, .cl_reg_page_vehicle_information::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .cl_reg_page_container .cl_reg_page_content {
+    flex-direction: column;
+  }
+}

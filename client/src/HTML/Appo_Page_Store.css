@@ -1,0 +1,157 @@
+
+.appointment_store_header {
+    border: 1px solid black;
+    font-size: 4.5vh;
+    text-align: center;
+    padding: 1.5vh;
+    margin: 0 auto;
+    width: 80%;
+    min-width: 80vw;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+}
+
+.appointment_store_wrapper {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2.5vh;
+}
+
+.appointment_store_left {
+    
+    display: flex;
+    flex-direction: column;
+    height: wrap-content;
+    margin-top: 3.8vh;
+    
+    
+}
+
+.appo_store_DS_Sel{
+    margin: 1.5vh;
+    padding: 1.5vh;
+    border: 1px solid black;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    font-size: 2.5vh;
+}
+
+.appo_store_DE_Sel{
+    margin: 1.5vh;
+    padding: 1.5vh;
+    border: 1px solid black;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    font-size: 2.5vh;
+}
+
+.appointment_store_analysis_btn{
+    margin: 1.5vh;
+    padding: 1.5vh;
+    border: 1px solid black;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    background-color: #4070f4;
+    text-align: center;
+    
+}
+
+.appointment_store_analysis_btn input{
+    font-size: 2.7vh;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.appointment_store_right {
+    
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.appointment_store_search {
+    position: relative;
+    height: 7.6vh;
+    width: 100%;
+    border: 1px solid black;
+    margin: 3vh 1.5vh;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    
+}
+
+.appointment_store_search_button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.appointment_store_search input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 2.7vh;
+    font-weight: 400;
+    border: none;
+    padding: 0 24vh 0 2.4vh;
+    background-color: transparent;
+}
+.appointment_store_search_button {
+    right: 3vh;
+    font-size: 2.4vh;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    padding: 1.8vh 4.5vh;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor: pointer;
+}
+
+.appointment_store_Table_One{
+
+    background-color: lightblue;
+    width: 100%;
+    height: wrap-content;
+    display: inline-block;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+
+}
+
+.appointment_store_Table_Two{
+
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: wrap-content;
+    display: inline-block;
+    margin-top: 3.6vh;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+
+}
+
+.appointment_store_Table_Three{
+
+    background-color: lightgreen;
+    width: 100%;
+    height: wrap-content;
+    display: inline-block;
+    margin-top: 3.6vh;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+
+}
+
+.appointment_store_td{
+    min-width: 23vh
+    
+    
+}
+
+

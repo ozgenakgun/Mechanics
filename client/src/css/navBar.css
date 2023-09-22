@@ -1,0 +1,23 @@
+/* navBar */
+.navBar {
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  font-size: 1vw;
+  background-color: black;
+  height: fit-content;
+  padding-top: 1vh;
+}
+.navBar > div {
+  width: fit-content;
+  margin-left: 2vw;
+}
+.nav_bar_not {
+  color: white;
+  border-radius: 5px;
+  padding: 0vh 1vw;
+}
+.nav_bar_selected {
+  color: black;
+  border-radius: 5px;
+  padding: 0vh 1vw;
+}

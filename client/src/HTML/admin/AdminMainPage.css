@@ -1,0 +1,139 @@
+.Admin_Main_Page_Body{
+    
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.Admin_Main_Page_Header{
+    text-align: center;
+    margin: 2.3vh;
+    font-size: 3vh;
+}
+
+.Admin_Main_Page_wrapper{
+    
+    margin: 0 auto;
+    width: 80%;
+
+    
+    
+}
+
+.Admin_Main_Page_Search {
+    position: relative;
+    height: 7.6vh;
+    max-width: 137vh;
+    width: 100%;
+    border: 1px solid black;
+    
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+    margin: 0 auto;
+    
+    
+}
+
+
+.ad_mp_search_button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+.Admin_Main_Page_Search input {
+  height: 100%;
+  width: 50%;
+  outline: none;
+  font-size: 1.82vh;
+  font-weight: 400;
+  border: none;
+  padding: 0 23.6vh 0 3.8vh;
+  background-color: transparent;
+  
+  
+}
+.ad_mp_search_button {
+  right: 3vh;
+  font-size: 2vh;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  padding: 2vh 4.5vh;
+  border-radius: 8px;
+  background-color: #4070f4;
+  cursor: pointer;
+}
+
+
+.Admin_Main_Page_CheckBox{
+    
+    background-color: lightyellow;
+    width: 50%;
+    margin:  3vh 0 2vh 0;
+    font-size: 2.5vh;
+}
+
+.Admin_Main_Page_CheckBox input{
+    height: 2.5vh;
+    width: 2.5vh;
+}
+
+.Admin_Main_Page_ViewList{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    height: 120%;
+    
+}
+
+.Admin_Main_Page_Row_One{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    margin: 1vh;
+    border-radius: 8px;
+}
+
+.Admin_Main_Page_RowInfo{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    font-size: 2vh;
+}
+
+.Admin_Main_Page_RowDeleteButton,
+.Admin_Main_Page_RowDetailButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 0.5vh;
+    background-color: rgb(250, 211, 210);
+    font-size: 2vh;
+    
+    
+
+}
+
+
+    
+
+
+/* .Admin_Main_Page_Buttons{
+    display: flex;
+    justify-content: space-between
+}
+.Admin_Main_Page_AddButton{
+    margin: 5px;
+}
+.Admin_Main_Page_DeleteButton{
+    margin: 5px;
+} */

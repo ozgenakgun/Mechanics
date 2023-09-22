@@ -1,0 +1,31 @@
+[{
+    "email": "client@test.com",
+    "password": "123",
+    "name": "Client1",
+    "phoneNumber": "641-240-3481",
+    "surName": "Keningham"
+  }, {
+    "email": "client2@test.com",
+    "password": "234",
+    "name": "Client2",
+    "phoneNumber": "260-619-6084",
+    "surName": "Prudence"
+  }, {
+    "email": "client3@test.com",
+    "password": "345",
+    "name": "Client3",
+    "phoneNumber": "174-522-2346",
+    "surName": "Levane"
+  }, {
+    "email": "client4@test.com",
+    "password": "456",
+    "name": "Client4",
+    "phoneNumber": "625-821-7586",
+    "surName": "Bakewell"
+  }, {
+    "email": "client5@test.com",
+    "password": "567",
+    "name": "Client5",
+    "phoneNumber": "129-440-7845",
+    "surName": "Bendley"
+  }]

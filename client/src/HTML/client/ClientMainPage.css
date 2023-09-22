@@ -1,0 +1,146 @@
+.cl_mp_header {
+    border: 1px solid black;
+    font-size: 4.5vh;
+    text-align: center;
+    padding: 1.5vh;
+    margin: 0.75vh 0 0.75vh 0;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+}
+
+.cl_mp_wrapper {
+    display: flex;
+}
+
+.cl_mp_left {
+    background-color: lightblue;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 2.3vh;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    
+}
+
+.cl_mp_left_one {
+    background-color: rgb(173, 182, 230);
+    margin: 1.5vh;
+    width: 100%;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+}
+
+.cl_mp_left_one select{
+    font-size: 2vh;
+}
+
+.cl_mp_left_two
+{
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(173, 182, 230);
+    margin: 1.5vh;
+    width: 100%;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    
+}
+
+.cl_mp_left_three {
+    background-color: rgb(173, 182, 230);
+    margin: 1.5vh;
+    width: 100%;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+}
+
+.cl_mp_left_four {
+    background-color: rgb(173, 182, 230);
+    margin: 1.5vh;
+    width: 100%;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+}
+
+.cl_mp_left_four select{
+    font-size: 2vh;
+}
+
+.cl_mp_right {
+    
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cl_mp_right span{
+    font-size: 2vh;
+}
+
+.cl_mp_search {
+    position: relative;
+    height: 7.5vh;
+    width: 100%;
+    border: 1px solid black;
+    margin: 3vh 1.5vh;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    
+}
+
+.cl_mp_search_button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cl_mp_search input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 2.7vh;
+  font-weight: 400;
+  border: none;
+  padding: 0 23.5vh 0 10vh;
+  background-color: transparent;
+}
+.cl_mp_search_button {
+  right: 3vh;
+  font-size: 2.4vh;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  padding: 1.8vh 4.5vh;
+  border-radius: 1vh;
+  background-color: #4070f4;
+  cursor: pointer;
+}
+
+.cl_mp_sel_pics{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    
+}
+
+.cl_mp_sel_pics_one,
+.cl_mp_sel_pics_two,
+.cl_mp_sel_pics_three,
+.cl_mp_sel_pics_four,
+.cl_mp_sel_pics_five,
+.cl_mp_sel_pics_six  {
+    margin: 0.75vh 0.75vh 0 0.75vh;
+    flex-basis: calc(50% - 3vh);
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    border-width: 0.1vh;
+}
+
+.cl_mp_img{
+    width: 100%;
+    height: auto;
+}

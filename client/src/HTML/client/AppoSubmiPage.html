@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="AppoSubmiPage.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="appo_submi_body">
+    <header class="appo_submi_header">MECH FINDER - Appointment Request</header>
+        <div class="appo_submi_wrapper">
+            <div class="appo_submi_cust_info">
+                <p class="appo_submi_p">Customer Information</p>
+                <input class="appo_submi_auto_fill_btn" type="button" value="Auto Fill by User Profile">
+                <div class="appo_submi_cust_info_input">
+                    <div class="appo_submi_cust_info_input_left">
+                        <label for="appo_submi_cust_info_ipnut_left_name">Name:</label>
+                        <input type="text" class="appo_submi_cust_info_ipnut_left_name" name="appo_submi_cust_info_ipnut_left_name">
+                        <label for="appo_submi_cust_info_ipnut_left_phone">Phone Number:</label>
+                        <input type="text" class="appo_submi_cust_info_ipnut_left_phone" name="appo_submi_cust_info_ipnut_left_phone">
+                        <label for="appo_submi_cust_info_ipnut_left_email">Email:</label>
+                        <input type="text" class="appo_submi_cust_info_ipnut_left_email" name="appo_submi_cust_info_ipnut_left_email">
+                    </div>
+                    <div class="appo_submi_cust_info_input_right">
+                        <label for="appo_submi_cust_info_ipnut_right_address">Address:</label>
+                        <input type="text" class="appo_submi_cust_info_ipnut_right_address" name="appo_submi_cust_info_ipnut_right_address">
+                        <label for="appo_submi_cust_info_ipnut_right_city">City:</label>
+                        <input type="text" class="appo_submi_cust_info_ipnut_right_city" name="appo_submi_cust_info_ipnut_right_city">
+                        <label for="appo_submi_cust_info_ipnut_right_postal">Postal Code:</label>
+                        <input type="text" class="appo_submi_cust_info_ipnut_right_postal" name="appo_submi_cust_info_ipnut_right_postal">
+                    </div>
+                    
+  
+
+                </div>       
+                
+            </div>
+            
+            <div class="appo_submi_car_info">
+                
+                <p class="appo_submi_p">Car Information</p>
+                
+                <div class="appo_submi_car_info_car_select">
+                    <label for=“appo_submi_car_select”>Select Car by User Profile</label> 
+                    <select class="appo_submi_select_car" name=“appo_submi_car_select”> 
+                        <option value=“Car_1”>Car_1</option> 
+                        <option value=“Car_2”>Car_2</option> 
+                    </select>
+                </div>
+
+
+                <div class="appo_submi_dropdown_input">
+                    
+                    <div class="appo_submi_dropdown_input_left">
+                        <label for=“appo_submi_make_select”>Make</label> 
+                        <select class="appo_submi_select_make" name=“appo_submi_make_select”> 
+                            <option value=“Audi”>Audi</option> 
+                            <option value=“Toyota”>Toyota</option> 
+                        </select>
+        
+                        <label for=“appo_submi_model_select”>Model</label> 
+                        <select class="appo_submi_select_model" name=“appo_submi_model_select”> 
+                            <option value=“A8”>A8</option> 
+                            <option value=“Corolla”>Corolla</option> 
+                        </select>
+        
+                        <label for=“appo_submi_year_select”>Year</label> 
+                        <select class="appo_submi_select_year" name=“appo_submi_year_select”> 
+                            <option value=“2020”>2020</option> 
+                            <option value=“2021”>2021</option> 
+                        </select>
+                    </div>
+                    
+                    <div class="appo_submi_dropdown_input_right">
+                        <label for=“appo_submi_milage_select”>Milage</label> 
+                        <select class="appo_submi_select_milage" name=“appo_submi_milage_select”> 
+                            <option value=“0”>0</option> 
+                            <option value=“100K”>100K</option> 
+                        </select>
+        
+                        <label for=“appo_submi_transmission_select”>Transmission</label> 
+                        <select class="appo_submi_select_transmission" name=“appo_submi_transmission_select”> 
+                            <option value=“Auto”>Auto</option> 
+                            <option value=“Manual”>Manual</option> 
+                        </select>
+        
+                        <label for=“appo_submi_drive_select”>Drive Train</label> 
+                        <select class="appo_submi_select_drive" name=“appo_submi_drive_select”> 
+                            <option value=“4x4”>4x4</option> 
+                            <option value=“4x2”>4x2</option> 
+                        </select>
+                    </div>
+
+    
+
+    
+                </div>
+            </div>
+            
+            <div class="appo_submi_prob_desc">
+                <p class="appo_submi_p">Problem Description</p>
+                
+                <div class="appo_submi_car_prob_desc_select">
+                    <label for=“appo_submi_category_select”>Category</label> 
+                    <select class="appo_submi_select_category" name=“appo_submi_category_select”> 
+                        <option value=“Mechanical”>Mechanical</option> 
+                        <option value=“Electrical”>Electrical</option>
+                        <option value=“Paint”>Paint</option> 
+                    </select>
+                </div>
+                
+                <div class="appo_submi_car_prob_desc_txt">
+                    <label for=“appo_submi_prob_input”>Description</label>
+                    <input class="appo_submi_prob_desc_box" type="text" name=“appo_submi_prob_input”>
+                </div>
+
+    
+            </div>
+            <div class="appo_submi_submit_btn">
+                <input type="submit" value="Submit">
+            </div>
+            
+
+        </div>    
+
+
+       
+
+</body>
+</html>

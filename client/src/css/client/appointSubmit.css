@@ -1,0 +1,199 @@
+
+.appo_submi_body{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    height: 100%;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.appo_submi_wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.appo_submi_header{
+    border: 1px solid black;
+    font-size: 4.5vh;
+    text-align: center;
+    padding: 1.5vh;
+    margin: 0.75vh 0 0.75vh 0;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+}
+
+.appo_submi_cust_info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    margin: 2vh 0 2vh 0;
+}
+
+.appo_submi_p{
+    font-size: 3vh;
+    margin: 1vh;
+}
+
+.appo_submi_auto_fill_btn{
+    width: 30%;
+    margin: 0 0 0 1vh;
+    font-size: 2vh;
+}
+
+.appo_submi_cust_info_ipnut_left_name,
+.appo_submi_cust_info_ipnut_left_phone,
+.appo_submi_cust_info_ipnut_left_email,
+.appo_submi_cust_info_ipnut_right_address,
+.appo_submi_cust_info_ipnut_right_city,
+.appo_submi_cust_info_ipnut_right_postal{
+
+    width: 80%;
+    margin: 0 0 0 1vh;
+    max-width: 70%;
+}
+
+
+.appo_submi_cust_info_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 0 1vh;
+}
+
+.appo_submi_cust_info_input label{
+    font-size: 2vh;
+    
+}
+
+.appo_submi_cust_info_input_left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 0 1vh 0;
+   
+}
+
+.appo_submi_cust_info_input_right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 0 1vh 0;
+}
+
+.appo_submi_car_info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: lightgoldenrodyellow;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    margin: 2vh 0 2vh 0;
+    font-size: 2vh;
+}
+
+.appo_submi_car_info_car_select label{
+    margin: 0 2vh 0 1vh;
+}
+
+.appo_submi_car_info select{
+    font-size: 2vh;
+}
+
+.appo_submi_dropdown_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 0 1vh;
+}
+
+.appo_submi_dropdown_input_left,
+.appo_submi_dropdown_input_right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 0 1vh 0;
+}
+
+.appo_submi_select_make,
+.appo_submi_select_model,
+.appo_submi_select_milage,
+.appo_submi_select_transmission,
+.appo_submi_select_year,
+.appo_submi_select_drive{
+    width: 80%;
+    margin: 0 0 0 1vh;
+    max-width: 70%;
+}
+
+.appo_submi_prob_desc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    margin: 2vh 0 2vh 0;
+    font-size: 2vh;
+}
+
+.appo_submi_car_prob_desc_select label{
+    margin: 0 3vh 0 1vh;
+}
+
+.appo_submi_prob_desc select{
+    font-size: 2vh;
+}
+
+
+.appo_submi_car_prob_desc_txt{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 1vh;
+}
+
+.appo_submi_prob_desc_box{
+    margin: 0 0 0 1vh;
+    width: 100%;
+    height: 12vh;
+    background-color: white;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    padding: 0.7vh 0.7vw;
+}
+
+
+
+
+
+.appo_submi_submit_btn{
+    display: flex;
+    margin-left: auto;
+    margin-top: 1vh;
+    border: 1px solid black;
+    border-radius: 1vh;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    background-color: #4070f4;
+    width: 10%;
+    
+    
+}
+
+.appo_submi_submit_btn input{
+    font-size: 2vh;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin: auto;
+}
+
+

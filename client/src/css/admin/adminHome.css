@@ -1,0 +1,132 @@
+
+.Admin_Main_Page_wrapper{
+    margin: 0 auto;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.Admin_Main_Page_Search {
+    position: relative;
+    height: 7.5vh;
+    width: 75%;
+    border: 1px solid black;
+    margin: 3.7vh auto 3vh auto;
+    border-radius: 10px;
+    box-shadow: 0 0.75vh 1.5vh rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Admin_Main_Page_Search input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 2.4vh;
+    font-weight: 400;
+    border: none;
+    margin-left: 3vw;
+    background-color: transparent;
+    letter-spacing: 0.1vw;
+  
+}
+.ad_mp_search_button {
+    right: 3vh;
+    font-size: 2.4vh;
+    font-weight: 400;
+    color: white;
+    border: none;
+    padding: 1.7vh 3vw;
+    border-radius: 8px;
+    background-color: #7fa3df;
+    cursor: pointer;
+}
+
+.ad_mp_search_button:hover{
+    background-color: #426eb9;
+}
+
+.Admin_Main_Page_CheckBox{
+
+    padding: 0.8vh 1.2vw;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin:  0 0 0 5vw;
+    background-color: #7fa3df;
+    font-size: 1vw;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.Admin_Main_Page_ViewList {
+    border-radius: 10px;
+    width: 90%;
+    margin: 3vh auto;
+    background-color: lightblue;
+    font-size: 1vw;
+}
+
+
+
+
+.Admin_Main_Page_ViewList > tbody > tr:not(:last-child) {
+    border-bottom: 1px solid rgb(125, 125, 125);
+
+}
+
+.Admin_Main_Page_ViewList > tbody > tr {
+    margin-top: 10%;
+
+}
+.Admin_Main_Page_Row_One > td {
+    margin: 0 1vw;
+    padding: 0.2vh  0.5vw;
+    
+}
+
+.admin_Main_Page_td1 {
+    width: 20%;
+}
+.admin_Main_Page_td2 {
+    width: 23%;
+}
+.admin_Main_Page_td3 {
+    width: 40%;
+}
+.Admin_Main_Page_RowDeleteButton,
+.Admin_Main_Page_RowDetailButton{
+    width: fit-content;
+}
+.Admin_Main_Page_RowDeleteButton > button,
+.Admin_Main_Page_RowDetailButton > button{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 0.4vh 0.8vw;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 0.5vh;
+    background-color: #7fa3df;
+    font-size: 1vw;
+    color: #fff;
+}
+
+.Admin_Main_Page_RowDeleteButton > button:hover,
+.Admin_Main_Page_RowDetailButton > button:hover{
+    background-color: #426eb9;
+}
+
+    
+
+
+/* .Admin_Main_Page_Buttons{
+    display: flex;
+    justify-content: space-between
+}
+.Admin_Main_Page_AddButton{
+    margin: 5px;
+}
+.Admin_Main_Page_DeleteButton{
+    margin: 5px;
+} */

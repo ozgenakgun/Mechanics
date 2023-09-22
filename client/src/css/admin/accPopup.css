@@ -1,0 +1,47 @@
+.admin_popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin_popup_inner {
+    padding: 2.8vh 2.5vw;
+    width: 50vw;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.admin_popup_close {
+    position: relative;
+    float: right;
+    font-size: 1.2vw;
+    padding: 0.4vh 0.9vw;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #7fa3df;
+}
+.admin_popup_close:hover {
+    
+    background-color: #426eb9;
+}
+
+.admin_popup_inner > h3 {
+    font-size: 1.9vw;
+    color: rgb(62, 116, 210);
+    margin-bottom: 1.2vh;
+}
+
+.admin_popup_table > tbody > tr > td {
+    font-size: 1.12vw;
+    line-height: 2;
+    padding-right: 1vw;
+}
